@@ -9,12 +9,17 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 nav {
-    background-color: purple
+    background-color: purple;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
 }
-.image {width: 90%;
+.image {width: 100%;
 }
 .logo {max-width: 25%;
 }
+.tamaño {height: 70px;}
+.lupa {background-color: purple;}
 @media (min-width:786px){
 nav {
     background-color: blue
